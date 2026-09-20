@@ -7,44 +7,101 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Andrea's Portfolio Playground</h1>
-    <p>Food, fitness, projects, and things I am learning along the way.</p>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="logo">Andrea</a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="food.html">Food</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+      </div>
+    </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Welcome</h2>
-      <p>
-        This site is my personal portfolio and learning playground. I am using it
-        to explore web design, GitHub Pages, and creative project ideas.
-      </p>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Portfolio Playground</p>
+        <h1>Building a cozy corner of the internet for projects, food, fitness, and learning.</h1>
+        <p class="hero-text">
+          Hi, I’m Andrea. This site is my personal portfolio and creative playground —
+          a place where I can experiment with web design, document what I’m learning,
+          and share projects that feel useful, personal, and fun.
+        </p>
+
+        <div class="hero-actions">
+          <a href="projects.html" class="button primary">View Projects</a>
+          <a href="about.html" class="button secondary">About Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <span class="card-label">Current focus</span>
+        <h2>Learning by building</h2>
+        <p>
+          GitHub Pages, HTML, CSS, JavaScript, recipe ideas, workout routines,
+          and small experiments that grow over time.
+        </p>
+      </div>
     </section>
 
-    <section>
-      <h2>Featured Areas</h2>
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Areas</p>
+        <h2>Things I’m exploring</h2>
+      </div>
 
-      <article>
-        <h3>Food & Recipes</h3>
-        <p>Recipes, restaurant recommendations, meal ideas, and food experiments.</p>
-      </article>
+      <div class="card-grid">
+        <article class="feature-card">
+          <div class="icon-bubble">🍽️</div>
+          <h3>Food & Recipes</h3>
+          <p>
+            Recipe ideas, meal inspiration, restaurant recommendations, and food
+            experiments I want to remember and share.
+          </p>
+          <a href="food.html">Explore food</a>
+        </article>
 
-      <article>
-        <h3>Fitness & Wellness</h3>
-        <p>Workout routines, wellness habits, and progress reflections.</p>
-      </article>
+        <article class="feature-card">
+          <div class="icon-bubble">💪</div>
+          <h3>Fitness & Wellness</h3>
+          <p>
+            Workout routines, wellness habits, favorite exercises, and reflections
+            on staying consistent without overcomplicating it.
+          </p>
+          <a href="fitness.html">Explore fitness</a>
+        </article>
 
-      <article>
-        <h3>Projects</h3>
-        <p>Creative, technical, and personal projects I am building over time.</p>
-      </article>
+        <article class="feature-card">
+          <div class="icon-bubble">✨</div>
+          <h3>Creative Projects</h3>
+          <p>
+            A collection of technical, creative, and personal projects that show
+            what I’m learning and building along the way.
+          </p>
+          <a href="projects.html">View projects</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <div>
+        <p class="eyebrow">Why this site exists</p>
+        <h2>A portfolio that feels personal, not stiff.</h2>
+      </div>
+      <p>
+        This is where I can practice technical skills while building something
+        that actually feels like me: warm, modern, useful, a little bubbly, and
+        still professional enough to share on LinkedIn.
+      </p>
     </section>
   </main>
 
-  <footer>
+  <footer class="footer">
     <p>Built by Andrea using GitHub Pages.</p>
   </footer>
-
-  <script src="js/main.js"></script>
 </body>
 </html>
